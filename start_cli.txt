@@ -1,0 +1,9 @@
+& "D:\llama.cpp\build\bin\Release\llama-server.exe" `
+   -m "D:\llama.cpp\models\Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ2_M.gguf" `
+   --n-gpu-layers 0 `
+   --mmproj "D:\llama.cpp\vision\mmproj-Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+
+
+& "D:\llama.cpp\build\bin\Release\llama-server.exe" `
+   -m "D:\llama.cpp\models\Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ2_M.gguf" `
+   --n-gpu-layers 0
